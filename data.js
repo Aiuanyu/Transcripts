@@ -1977,7 +1977,7 @@ data = [
           [
             "",
             "",
-            "<div class='sidenote'>🇯🇵 北海道ソ－ラン歌舞<q>ドッコイショ　ハードッコイショドッコイショ</q><br>→ 🟢「素蘭小姐欲出嫁」<q>heh-siooh heh-siooh lok-kài-siooh lok-kài-siooh</q><br>這邊我自己將歌手唱的音擬成客拼</div><i><span class='noted'>Hedxiod hedxiod laggadxiod laggadxiod laggadxiod...</span><br>He!</i>",
+            "<div class='sidenote'>🇯🇵 北海道ソ－ラン歌舞<q>ドッコイショ　ハードッコイショドッコイショ</q><br>→ 🟢「素蘭小姐欲出嫁」<q>heh-siooh heh-siooh lok-kài-siooh lok-kài-siooh</q><br>這邊客拼是我自擬</div><i><span class='noted'>Hedxiod hedxiod laggadxiod laggadxiod laggadxiod...</span><br>He!</i>",
             ""
           ],
           [
