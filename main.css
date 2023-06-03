@@ -1,0 +1,980 @@
+:root {
+  --main-bg: hsl(213, 36%, 16%); /* 藍布 */
+  --main-text-color: #c2b882; /* 金色 */
+  --second-bg: #805136; /* 男女主海報女主襯衫 */
+  --light-bg: hsla(153, 29%, 66%, 0.8); /* 海報綠葉湖水綠 */
+  --color: ;
+  --printed-font: Essays1743, 'WenYue GuDianMingChaoTi (Non-Commercial Use)', sans-serif;
+  --base-serif: Athelas, 'Doulos SIL', 宋體-繁, serif;
+  --note-font: Athelas, 楷體-繁, 全字庫正楷體 Ext-B, 'Doulos SIL', TaiExtWeb, serif;
+}
+
+body {
+/*  font-family: "jf open 粉圓 1.1", "圓體-繁", serif;*/
+  font-family: '源流明體'/*"霞鶩文楷 TC"*/, HanaMinB, TaiExtWeb, serif;
+  line-height: 1.4rem;
+  border-radius: 0px;
+  font-size: 24px;
+}
+
+h1, #vnum {
+  font-family: /*Oradano-mincho-GSRR*/ /*Alegreya,*/ /*HGSMinchoE*/ 'Toppan Bunkyu Midashi Gothic';
+  line-height: 1.4;
+}
+
+#main-idea-page, .qgroup/*, .card*/ {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#main-idea {
+  padding: 2em;
+  margin: 2em;
+  color: /*white*/ maroon;
+  /*background-color: #e5ba00;*/
+
+  /* 以下 #main-idea 及 blockquote 樣式取自 Quote styling <https://codepen.io/JoeHastings/pen/MOdRVm> */
+  font-family: 'Special Elite', Huiwen-mincho, 'Wenyue GuDianMingChaoTi (Non-Commercial Use)', Oradano-mincho-GSRR, cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@font-face {
+  font-family: 'Special Elite';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/specialelite/v11/XLYgIZbkc4JPUL5CVArUVL0ntnAOTQ.ttf) format('truetype');
+}
+
+/*cite {
+  font-family: 'Special Elite', 'Fangsong', cursive;
+}*/
+
+#main-idea blockquote {
+  font-weight: 100;
+  font-size: 2rem;
+  max-width: 600px;
+  line-height: 1.4;
+  position: relative;
+  margin: 0;
+  padding: 0.5rem;
+}
+#main-idea blockquote:before,
+#main-idea blockquote:after {
+  position: absolute;
+  color: #f1efe6;
+  font-size: 8rem;
+  width: 4rem;
+  height: 4rem;
+}
+#main-idea blockquote:before {
+  content: '“';
+  left: -5rem;
+  top: -2rem;
+}
+#main-idea blockquote:after {
+  content: '”';
+  right: -5rem;
+  bottom: 1rem;
+}
+#main-idea cite {
+  line-height: 3;
+  text-align: center;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#suggestion, #roman-guide caption {
+  text-align: center;
+  margin: 2em auto;
+  background-color: orange;
+  width: 70vw;
+  border-radius: 0.3em;
+  border: 0.1em solid lightgoldenrodyellow;
+  color: white;
+  font-family: '霞鶩文楷 TC';
+  vertical-align: middle;
+}
+#suggestion {
+  font-size: 3vw;
+  line-height: 1.5em;
+}
+#suggestion:after {
+  display: inline-block;
+  content: ' ';
+  background-image: url('res/mobile-landscape-mode.svg');
+  background-size: 1.2em 1.2em;
+  width:1.2em;
+  height:1.2em;
+  margin-left:0.3em;
+  vertical-align: middle;
+}
+
+#thanks {
+  border: 1pt solid var(--light-bg);
+  padding: 4vw;
+  color: var(--main-bg);
+}
+#thanks, #links a, #HLauthor, #Payuan-author, #links li, button.collapsible, #useHL, #backToSI, #headTOCButton {font-family: PT Sans, '黑體-繁', sans-serif; font-weight: 700;}
+#thanks ul ul li, #links li, #floatedTOC li, #headTOCButton {
+  display: inline-block;
+  color: white;
+  padding: 0.3em;
+  margin: 0.1em 0.3em;
+  border-radius: 0.3em;
+}
+#thanks ul ul li a {color: azure;}
+#links ul {
+  display: inline;
+  padding-inline-start: 0;
+}
+#info {
+  margin-left: 5vw;
+  margin-bottom: 5vh;
+  max-width: 40vw;
+}
+#copyright p {
+  text-indent: -1em;
+  margin: 0 0 0 1em;
+}
+#HLauthor {background-color: mediumvioletred; color: white;}
+#Payuan-author {background-color: #167549; color: white;}
+/*#thanks>ul>ul, #thanks>ul>li {display: inline-block}*/
+#community li {  background-color: hsl(31, 90%, 80%);}
+#dic li {  background-color: hsl(192, 90%, 80%);}
+#softwares li {  background-color: hsl(111, 90%, 80%);}
+
+section {
+  background-color: hsl(213, 36%, 16%); /* 海報主色調「粗布藍衣」 ☞ 幕後｜從平衡感開始，談談 《茶金》的視覺設計 | 劇夠 <https://dramago.ptsplus.tv/?p=5091&fbclid=IwAR3_g0rjWk8ln6RYwrBOMUVueCvcv1g7eVSErn40G46ELfgIxvD788lNPbk>*/
+  color: #c2b882; /* = hsl(51, 34%, 64%) = 海報主色調金色茶葉 */
+  padding: /*50pt*/ 5vh;
+}
+/*section a {color: inherit;}*/
+section, #thanks {
+  border-radius: /*5px*/ 2vh;
+  margin: 10pt 0;
+}
+      
+section table {
+  font-weight: 700;
+}
+
+@media print {
+  #cover-page {
+    /* 占滿整頁 */
+    width: 100vw;
+    height: 100vh;
+    page-break-after: always;
+    
+    /* 內容全置中 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+    font-size: 4vh;
+    background-color: var(--main-bg);
+    color: var(--main-text-color);
+    /*background-image: linear-gradient(to right, rgba(255,210,0,0.4), rgba(200, 160, 0, 0.1) 11%, rgba(0,0,0,0) 35%, rgba(200, 160, 0, 0.1) 65%);
+  box-shadow: inset 0 0 75px rgba(255,210,0,0.3), inset 0 0 20px rgba(255,210,0,0.4), inset 0 0 30px rgba(220,120,0,0.8);*/ /* Old Paper - CSS Effects <https://codepen.io/efost/pen/rrjvkk> */
+  }
+  #cover-page div {
+    display: initial !important;
+    line-height: 2.5em;
+  }
+
+  #cover-photo, #cover-photo2 {
+    display: initial !important;
+    height: 25vh;
+  }
+
+  body {
+    font-size: 1.5vh;
+  }
+
+  #main-idea-page, #instructions {
+    width: 100vw;
+    height: 100vh;
+    page-break-after: always;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  #main-idea {
+    width: 80vw;
+    height: 80vh;
+  }
+  .qgroup {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  #note {page-break-after: always;}
+
+  #suggestion {
+    font-size: 3vh;
+    line-height: 1.5em;
+  }
+  
+  #thanks {
+    page-break-before: always;
+  }
+  
+  .episode:first-of-type h1 {page-break-before: always;}
+  .episode:first-of-type h1:before {display: none;}
+  
+  tr, .sidenote {page-break-inside: avoid;} /* .sidenote 的部分似乎是無效的 */
+  
+  .noprint {display: none !important;}
+
+  #cover-hak {
+    /*float: right;*/
+    transform: rotate(350deg);
+    position: absolute;
+    right: 0%;
+    font-family: Huiwen-mincho;
+    border: red 0.1em solid;
+    border-radius: 0.1em;
+    color: red;
+    padding: 0.2em;
+    line-height: 1.2em !important;
+  }
+  #cover-hak .HL {color: mediumvioletred;}
+}
+/* @page :first {margin: 0;} */ /* Chromium、Firefox 系瀏覽器都無效 QQ */
+
+#cover-page {
+  text-align: center;
+  font-family: /*"翩翩體-繁"*/ Toppan Bunkyu Midashi Mincho Extrabold;
+}
+#cover-photo, #cover-photo2 {display: none;}
+
+
+#main-title:after {
+  content: 'Aiuanyu 編／v0.1.7 20211202';
+  font-size: 0.5em;
+  font-family: 蘋果儷中黑;
+  position: absolute;
+  right: 5vw;
+  bottom: 0;
+}
+
+@media screen {
+  #cover-page br, #main-title:after {
+    display: none;
+  }
+  
+}
+
+.episode/*:not(:first-of-type)*/ h1::before {
+  content: "❖ ❖";
+  display: block;
+  text-align: center;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+h1 {
+  text-indent: -2em;
+  margin-left: 2em;
+}
+
+td {
+  vertical-align: top;
+  padding: 0.15em 0px;
+  line-height: 1.4em;
+}
+
+:root { /* 似乎可以清掉了，用不到？ */
+  --color: 0 0%;
+  --l: 100%;
+}
+
+section td:nth-child(1) {
+  text-align: right;
+  white-space: nowrap;
+  width: 10vw;
+}
+
+section td:nth-child(2) {
+  padding-left: 3vw;
+}
+
+section tr:nth-child(2n+1), section tr:nth-child(2n+1) .lang1 {
+  font-family: var(--base-serif);
+  color: /*antiquewhite*/hsl(34, 100%, 96%);
+}
+section tr:nth-child(2n+1) {
+  font-size: 1.4em;
+}
+section tr:nth-child(2n+1) .lang1 {
+  font-weight: 700;
+  font-size: 1.1em;
+}
+section tr:nth-child(2n) .lang1 {font-family: 源流明體, serif;} /* 有的時候在其他語言台詞中反而夾雜客話 */
+
+
+section tr:nth-child(2n+1) td {
+  padding-top: 1em;
+}
+
+section tr:nth-child(2n) td, section tr:nth-child(2n) .jp {
+  color: hsla(0, 0%, 100%, 0.6) !important;
+}
+
+section tr:nth-child(2n+1) {
+  --color-darker: hsl(var(--color),calc(var(--l) - 50%));
+  /* color: var(--color-darker); */
+}
+/* section tr:nth-child(3n) {line-height: 50%; height: 50%} */
+
+section table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 0px none;
+}
+
+.TBD {
+  background-color: rgba(255, 255, 0, 0.90);
+  color: #0759ab;
+}
+/*.TBD:after {
+  content: "?";
+  font-size: 0.5em;
+  vertical-align: top;
+  line-height: 1.2em;
+  padding-right: 0.2em;
+  padding-top: 0.5em;
+}*/
+
+.time {
+  font-family: /* Digital-7 */ /*Menlo*/ NovaMono for Powerline; 
+  background: black; 
+  /*color: white;*/
+  display: inline-block; 
+  padding: 0.5em; 
+  font-size: 0.8em;
+  line-height: 1.2em;
+  border-radius: 0.5em;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.draft {
+  background-color: #ebebeb;
+  padding: 1vh;
+}
+
+.draft::before, .draft h1::before {
+  content: "以下草稿狀態‧防雷慎入";
+}
+
+.draft section {
+  background-color: hsl(160, 69%, 10%) /* #198964 的暗黑調 */
+}
+
+.sidenote {
+  position: absolute; /* ☞ css - Float right and position absolute doesn't work together - Stack Overflow <https://stackoverflow.com/questions/11333624/float-right-and-position-absolute-doesnt-work-together> */
+  max-width: 14vw;
+  font-size: 8pt;
+  font-weight: 500;
+  line-height: 12pt;
+  background-color: #FFE8A4;
+  background-image: url(res/Wood-Border.svg); /* ☞ Wood Border 2 | Free SVG <https://freesvg.org/wood-border2-arvin61r58> */ /* Wood Pattern - Transparent Textures <https://www.transparenttextures.com/wood-pattern.html> */
+  background-size: 100% 100%; /* 新版 Firefox 中，SVG 的 aspect ratio 會維持不變，不像 BlueGriffon 3.1 裡面會拉伸 ∴須修改 SVG 檔加入 preserveAspectRatio="none" ☞ css - Cannot stretch svg background image, aspect ratio will be preserved - Stack Overflow <https://stackoverflow.com/questions/32454685/cannot-stretch-svg-background-image-aspect-ratio-will-be-preserved> */
+  border-radius: 3pt;
+  left: 82vw;
+  padding: 8pt 10pt;
+  color: brown;
+  box-shadow: brown 0.3vw 0.3vw 0.25vw;
+}
+.sidenote, .cardNotes {
+  font-family: var(--note-font); /* Chromium 系瀏覽器的「楷體-繁」竟然無法正常顯示「𤆬」字 ∴只好用 fallback */
+}
+
+.trans { /* 參考 .sidenote 來做翻譯方塊（主要給排灣語用） */
+  position: absolute;
+  max-width: 20vw;
+  font-size: 10pt;
+  font-weight: 500;
+  line-height: 14pt;
+  background-color: hsla(51, 34%, 64%, 0.5);
+  border-radius: 3pt;
+  left: 70vw;
+  font-family: Athelas, 楷體-繁, serif;
+  padding: 3pt 10pt;
+  color: white;
+  /* box-shadow: brown 0.25vw 0.25vw; */
+}
+.tranName {
+  /*border-bottom: #e5c120 0.2em solid;*/
+  /*border-top: #e5c120 0.2em solid;*/
+  /*background-color: hsla(153, 29%, 66%, 0.5);*/
+  color: hsla(153, 29%, 66%, 1.0);
+  /*border-radius: 0.5em;*/
+  font-family: PT Sans, 黑體-繁;
+  font-weight: 700;
+}
+
+section table {width: 70vw;}
+
+.noted {
+  background-color: rgba(227, 221, 109, 0.3); /* 臺灣地圖海報的黃 */
+  border-radius: 0.3em;
+  break-inside: avoid; /* 沒辦法讓 before 的元素和主元素保持在同一行 :( */
+  display: inline-block; /* 改用這個來讓 before 的元素和主元素保持同一行！*/
+}
+/*.noted:before {
+  /*display: inline;*/
+/*  content: "✎";
+  font-size: 0.3em;
+  vertical-align: top;
+  top: -2.5em;
+  /*left: 2em;*/
+/*  width: 0;
+  opacity: 0.33;
+  display: inline-block;
+  position: relative;
+  margin-right: 0.1em;
+}*/
+
+#links {text-align: left;}
+
+#links a, .collapsible, #floatedTOC a, #headTOCButton {
+  color: var(--main-text-color);
+  background-color: var(--main-bg);
+  float: none;
+  text-decoration: none;
+  vertical-align: middle;
+  box-shadow: 0.1em 0.1em var(--light-bg);
+  border: 0.05em var(--light-bg) solid;
+}
+#links a, #HLauthor, #Payuan-author {
+  display: inline-block;
+}
+#links a, #vinfo, #HLauthor, #Payuan-author, .collapsible, #useHL, #backToSI, #floatedTOC a, #headTOCButton {
+  padding: 0.3em 0.7em;
+  margin: 0.3em 0.3em;
+  border-radius: 0.4em;
+}
+#links a:after, .collapsible:not([class~=active]):after, #useHL:after, #backToSI:after, #headTOCButton:after {
+  display: inline-block;
+  content: ' ';
+  background-image: url('res/click.svg'); /* Free Click Icon, Symbol. Download in PNG, SVG format. <https://www.iconpacks.net/free-icon/click-2384.html> */
+  background-size: 1em 1em;
+  background-repeat: no-repeat;
+  width:1.2em;
+  height:1.2em;
+  margin-left:0.1em;
+  margin-right: -0.5em;
+  vertical-align: middle;
+} /* css - Is there a way to use SVG as content in a pseudo element ::before or ::after - Stack Overflow <https://stackoverflow.com/questions/19255296/is-there-a-way-to-use-svg-as-content-in-a-pseudo-element-before-or-after> */
+#links a img {
+  vertical-align: middle;
+}
+
+#vnum {font-size: 1.5em; font-weight: 700;}
+
+/* CSS counter-increment property <https://www.w3schools.com/cssref/pr_gen_counter-increment.asp> */
+body {counter-reset: EPx}
+.episode {counter-increment: EPx;}
+.episode section:after {
+  float:right;
+  /*content: "EP" counter(EPx) ;*/
+  /*margin-top: 0.5em;*/
+  content: "Aiuanyu 愛灣語";
+  bottom: 0.5em;
+  font-family: var(--printed-font);
+  font-size: 0.8em;
+}
+
+#vinfo {
+/*  border: 1px solid; */
+  padding: 0.3em;
+  text-align: center;
+  background: #E5FBC6;
+}
+
+/*section:not(.noHak):before {
+  content: "客：四縣腔";
+  float: right;
+  font-size: 0.5em;
+}*/
+.HL {display: none;}
+.floatedButtons {
+  position: fixed;
+  top: 2px;
+  right: 0px;
+  z-index: 50;
+}
+#useHL, #floatedTOCButton {
+  opacity: 0.5;
+}
+#useHL:hover, /*.floatedButtons:hover, */#floatedTOCButton:hover, #floatedTOCButton.active {
+  opacity: 1;
+}
+
+@font-face {
+  font-family: TaiExtWeb;
+  src: url(res/TaiExtWeb.ttf);
+}
+
+section tr:nth-child(2n) {color: white !important;}
+/* Ho̍h-ló */
+section tr.lang2, section td.lang2, section tr:nth-child(2n+1) .lang2, .sample.lang2 {color: /*honeydew*//*hsl(217, 82%, 89%)*/hsl(303, 100%, 96%);}
+section tr:nth-child(2n).lang2, section tr:nth-child(2n) .lang2, .sample.lang2/*, .tranName*/ {font-family: "源石黑體", /*"霞鶩文楷 TC",*/ TaiExtWeb, sans-serif; font-weight: 500;}
+section tr:nth-child(2n+1).lang2, section tr:nth-child(2n+1) .lang2 {font-family: 'Lesson One', 'Doulos SIL', sans-serif; font-weight: 500;}
+section tr:nth-child(2n+1).lang2 {font-size: 1.2em;}
+section tr:nth-child(2n+1).lang2 td {line-height: 1.6em;}
+section tr:nth-child(2n+1) .lang2 {font-size: 0.9em !important;}
+section tr:nth-child(2n+1).lang3 .lang2 {font-size: 1.3rem !important;}
+/* 芫荽體鶴佬 */
+section tr.lang21, section td.lang21, section tr:nth-child(2n+1) .lang21, .sample.lang21 {color: /*honeydew*//*hsl(217, 82%, 89%)*/hsl(303, 100%, 96%);}
+section tr:nth-child(2n).lang21, section tr:nth-child(2n) .lang21, .sample.lang21/*, .tranName*/ {font-family: "Iansui 094", TaiExtWeb, serif; font-weight: 500;}
+section tr:nth-child(2n+1).lang21, section tr:nth-child(2n+1) .lang21 {font-family: "Iansui 094", 'Doulos SIL', sans-serif; font-weight: 500;}
+/* 排灣文 */
+section tr.lang3, section td.lang3, section tr:nth-child(2n+1) .lang3, .sample.lang3 {color: /*honeydew*//*hsl(217, 82%, 89%)*/hsl(127, 100%, 96%);}
+section tr:nth-child(2n).lang3, section tr:nth-child(2n) .lang3, .sample.lang3 {font-family: "黑體-繁", sans-serif; font-weight: 700;}
+section tr:nth-child(2n+1).lang3, section tr:nth-child(2n+1) .lang3, .sample.lang3, #floatedTOC li {font-family: /*STXinwei, Nyala, Museo, */Kefa, Constantia, Archer, Superclarendon, 'Academy Engraved LET', 'Book Antigua', Baskerville, serif; font-weight: 500;}
+/*section tr:nth-child(2n+1).lang3 td:nth-child(2n+1) {font-family: Kefa; font-weight: 500; font-size: 1.4rem;}*/
+section tr:nth-child(2n+1).lang3 {font-size: 1.35em;}
+section tr:nth-child(2n+1) .lang3 {font-size: 0.9em;}
+section tr.lang3 td:nth-child(2), section tr.lang6 td:nth-child(2) {padding-right: 25%;}
+section .lang3 td {line-height: 1.6em;}
+/* 英法文 */
+.fr td, .lang6 td {color: hsl(255, 100%, 96%); font-family: 'Bell MT';}
+.lang4 td {color: hsl(187, 100%, 96%); font-family: 'Bell MT', Daehan;}
+section tr:nth-child(2n).lang4, section tr:nth-child(2n).lang6, section tr:nth-child(2n).lang3 {display: none;}
+/* Hindi 文、尼泊爾文 */
+.lang7 td {color: hsl(255, 100%, 96%);}
+section tr:nth-child(2n+1).lang7 td {font-family: Mangal, sans-serif; font-weight: 500; font-size: 1.5em;}
+/* 日文 */
+.jp {
+  font-family: Andika, '霞鶩文楷 TC', serif !important;
+  color: hsl(127, 100%, 96%) !important;
+}
+section tr:nth-child(2n+1) .jp {font-size: 0.9em;}
+section tr:nth-child(2n) .jp {font-family: '霞鶩文楷 TC', sans-serif;}
+
+/*span.sample.jp {font-family: Andika, '霞鶩文楷 TC' !important;}*/
+/* Mandarin */
+section tr.lang5, td.lang5, tr:nth-child(2n+1) .lang5, .sample.lang5 {color: /*honeydew*//*hsl(217, 82%, 89%)*/hsl(235, 100%, 96%);}
+section tr:nth-child(2n).lang5, section tr:nth-child(2n) .lang5, .sample.lang5 {font-family: 楷體-繁, sans-serif; font-weight: 700;}
+section tr:nth-child(2n+1).lang5, section tr:nth-child(2n+1) .lang5, .sample.lang5 {font-family: 霞鶩文楷 TC, sans-serif; font-weight: 900;}
+section tr:nth-child(2n+1).lang5 {font-size: 1.25em;}
+/* section tr:nth-child(2n+1) .lang5, .sample.lang5 {font-size: 0.9em;} */
+
+.poem {
+  font-style: italic;
+  text-align: center;
+  font-weight: 500;
+}      
+/* Quote styling <https://codepen.io/JoeHastings/pen/MOdRVm> */
+.poem blockquote {
+	position: relative;
+	margin: 0;
+}      
+.poem blockquote:before,
+.poem blockquote:after {
+	position: absolute;
+	color: hsla(255, 100%, 96%, 0.5);
+	font-size: 5rem;
+	width: 2rem;
+	height: 2rem;
+}
+.poem blockquote:before {
+	content: '“';
+	left: -1rem;
+	top: -1rem;
+}
+.poem blockquote:after {
+	content: '”';
+	right: -2rem;
+	bottom: 1rem;
+}
+
+.sidenote blockquote, .trans blockquote {
+  margin: 1em 0;
+  padding: 1em 0 1em 0.5em;
+  border-left: solid;
+  font-family: FangSong !important;
+  line-height: 1.7em;
+}
+
+.condensed {
+  font-stretch: extra-condensed; /* 要搭配有 condense 的字型才行 */
+  font-size: 90%;
+  letter-spacing: -0.05em;
+  transform: scale(2, 1); /* 一點用都沒有 */
+}
+
+td hr {
+  margin-top: 2em;
+  
+  /* Simple Styles for <hr>'s <https://css-tricks.com/examples/hrs/> */
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, hsla(153, 29%, 66%, 0), hsla(153, 29%, 66%, 0.8), hsla(153, 29%, 66%, 0)); /* 綠茶葉海報的綠 #8ec1ab */
+}
+
+.updated {
+  border-bottom: dashed 0.3vh hsla(181, 54%, 64%, 0.5);
+}
+
+.sample {
+  background: rgb(26, 39, 55);
+  color: /*antiquewhite*/hsl(34, 100%, 96%);
+  font-family: Athelas, 源流明體, serif;
+}
+
+#instructions td, #instructions th {
+  font-size: 1.5vw;
+  line-height: 2vw;
+  padding: 0.5em;
+}
+table#roman-guide {
+  width: 90vw;
+  margin: auto;
+  box-shadow: 0.5vw 0.7vw 0.5vw grey;
+  border: none;
+}
+#roman-guide td {
+  text-align: center;
+  vertical-align: middle;
+  font-family: Andika, 源泉圓體, TaiExtWeb, sans-serif;
+  font-size: 2vw;
+  line-height: 2.5vw;
+  max-width: 15vw;
+}
+#roman-guide tbody tr:nth-child(2n) {
+  background-color: lightgray;
+  color: darkslategray;
+}
+#roman-guide tbody tr:nth-child(2n+1) {
+  background-color: darkseagreen;
+  color: white;
+}
+#roman-guide th {
+  background-color: silver;
+  color: darkslategray;
+}
+#roman-guide caption {
+  margin: 0.5em auto;
+  font-size: 1.5em;
+  line-height: 1.8em;
+}
+
+.note {
+  font-size: smaller;
+  font-family: Fangsong;
+}
+
+#title-multilingual { /* CSS Text Gradient Generator - CSS Portal <https://www.cssportal.com/css-text-gradient-generator/> */
+  background: #198964;
+  background: -webkit-repeating-linear-gradient(to right, #198964 0%, #e5c120 50%, #C71585 100%);
+  background: -moz-repeating-linear-gradient(to right, #198964 0%, #e5c120 50%, #C71585 100%);
+  background: repeating-linear-gradient(to right, #198964 0%, #e5c120 50%, #C71585 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+} /* 黃色相思樹花 #e5c120 */
+
+.larger {font-size: large; line-height: 1.5em;}
+
+td.classic {
+  /*border-left: 0.2em solid hsla(153, 29%, 66%, 0.5);*/
+
+  /* 感謝　神，試了好久總算弄出可用的漸層左邊界：list with 1px solid left gradient border <https://gist.github.com/titox/1663686> */
+  background-image: linear-gradient(45deg, hsla(153, 29%, 66%, 0), hsla(153, 29%, 66%, 0.5), hsla(153, 29%, 66%, 0));
+  background-repeat: repeat-y;
+  background-size: 0.2em;
+  background-position: left 0.3em top;
+}
+td.classic, span.classic {
+  /*text-shadow: 0.1em 0.1em 0.1em hsla(153, 29%, 66%, 0.8);*/
+  text-decoration: underline;
+  text-decoration-color: hsla(153, 29%, 66%, 0.5);
+  text-decoration-style: double;
+}
+td.classic:before {
+  content: '🏅';
+  font-size: 3em;
+  position: absolute;
+  right: 30%;
+  opacity: 0.3;
+}
+
+.hapim {
+  /*font-size: 0.7em;*/
+  /*vertical-align: middle;*/
+  letter-spacing: -0.1em;
+  border-radius: 0.5em;
+  border-style: solid;
+  border-color: hsla(0, 0%, 100%, 0.3);
+  border-width: 0 0 0.2em 0;
+}
+.hapim:before {content: '{';}
+.hapim:after {content: '}';}
+.hapim:before,
+.hapim:after {
+  font-size: 0.3em;
+  opacity: 0.5;
+}
+rt {opacity: 0.5;}
+rb {
+  border-style: dotted;
+  border-color: hsla(0, 0%, 100%, 0.2);
+  border-width: 0 0.02em;
+}
+
+.payuanEllipsis {
+  /*content: url(res/Payuan-snake.png);*/ /* 這個有用 */
+  /*content: "◆◆◆◆◆◆◆◆◆◆◆◆◆◆";*/ /* 這個沒有用 */
+  /*display: block;*/ /* 這個會導致往上偏移一點 */
+  /*height: 1rem;*/
+  /*opacity: 0.7;*/
+  font-family: Daehan;
+  border: solid 1px /*hsl(127, 100%, 96%)*/currentColor;
+  font-size: 1.4rem;
+}
+
+.group {border: 1px dotted lightgray;}
+.centeralign {text-align: center;}
+
+/* ===== How To Create a Collapsible <https://www.w3schools.com/howto/howto_js_collapsible.asp> ===== */
+ /* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  /*background-color: #eee;
+  color: #444;*/
+  cursor: pointer;
+  padding: 4px;
+  /*width: 100%;*/
+  /*border: none;*/
+  /*text-align: left;*/
+  outline: none;
+  /*font-size: 15px;*/
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: var(--second-bg);
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.collapsibleContent {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  border-radius: 0.3em;
+  z-index: 100;
+}
+
+/*#floatedTOCButton[class~=active], #floatedTOCContainer {width: 40% !important;}*/
+#floatedTOC {padding-left: 0;}
+#floatedTOC li, #floatedTOCContainer {
+  line-height: 2em;
+}
+#backToSI {display: none;}
+#useHL, #backToSI, #floatedTOCButton, #floatedTOCContainer { /* 關鍵的靠右 ☞ css - Right-align block elements in HTML - Stack Overflow <https://stackoverflow.com/questions/17614801/right-align-block-elements-in-html> */
+  float: right;
+  clear: right;
+}
+#floatedTOCContainer {
+  box-shadow: 0.2em 0.2em darkslategray;
+  border: 1px solid darkslategray;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+  width: auto;
+  opacity: 0.8;
+}
+#floatedTOCContainer:hover {opacity: 1;}
+#floatedTOC li {text-align: left;}
+#floatedTOCButton.active {width: 100%;}
+#floatedTOCButton.active:after {
+  content: "（再按一次收回 👆）" !important;
+  width: auto;
+  background-color: var(--main-bg);
+  display: inline-block;
+  margin-left: 1em;
+  border-radius: 0.5em;
+}
+#useHL, #backToSI {color: white;}
+#useHL {background-color: mediumvioletred;}
+#backToSI {background-color: deeppink;}
+
+#headTOCButton {
+  font-size: 3vw;
+  cursor: pointer;
+}
+
+#TBC {text-align: center;}
+
+/* How To Create Social Media Buttons <https://www.w3schools.com/howto/howto_css_social_media_buttons.asp> */
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 0.5em;
+}
+.fa:hover {opacity: 0.7;}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+/* 字卡區開始 */
+.card {
+  width: 500px;
+  /*float: left;*/
+  /*height: 25vw;*/
+  /*display: inline-block;*/
+  /*background-color: var(--main-bg);*/
+  background-image: url(res/card-bg-portrait.jpg);
+  background-size: 100% 100%;
+  border-radius: 30px;
+  /*margin: 1vw;
+  padding: 1vw;*/
+  margin-bottom: 15px;
+  text-align: center;
+  color: var(--main-text-color);
+  position: relative;
+  border: 1px solid var(--main-text-color);
+}
+body {counter-reset: cardx;}
+.card {counter-increment: cardx;}
+.card:before {
+  content: "茶金流行字卡 #"counter(cardx);
+  font-family: var(--printed-font);
+  position: absolute;
+  left: 30px;
+  top: 30px;
+  color: #3b3b3c;
+  background-image: url(res/card-logo.png);
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-left: 40px;
+}
+.cardNotes:after {
+  content: "Aiuanyu 愛灣語";
+  font-family: var(--printed-font);
+  color: #3b3b3c;
+  display: block;
+  margin-top: 20px;
+  opacity: 0.5;
+}
+.card .cardLangLogo {
+  float: right;
+  width: 16px;
+  height: 16px;
+  background-size: 100%;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  font-size: 8px;
+  line-height: 16px;
+  text-align: center;
+  color: #009944;
+  font-family: var(--printed-font);
+}
+.card .hl .cardLangLogo {background-image: url(res/HLflag.jpg);}
+.card .nan .cardLangLogo {background-image: url(res/NANflag.png);}
+.card .nan .cardRoman, .card .nan .cardLangLogo {color: #a8009f;}
+.cardRoman {
+  font-size: 100px;
+  line-height: 120px;
+  margin-top: 70px;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-family: var(--base-serif);
+  color: #009944;
+}
+.cardHanji {
+  font-size: 50px;
+  line-height: 75px;
+  margin-top: 10px;
+}
+.cardNotes {
+  font-size: 20px;
+  line-height: 28px;
+  margin: 20px 20px 80px 20px;
+  color: #3b3b3c;
+}
+.cardQR {
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  right: 100px;
+  bottom: 50px;
+  /*margin: 5px auto 20px auto;*/
+  background-image: url(res/Aiuanyu-qr-code.png);
+  background-size: 100% 100%;
+  opacity: 0.7;
+}
+/*.cardRoman, .cardHanji, .cardNotes { /* Simplified Fluid Typography | CSS-Tricks <https://css-tricks.com/simplified-fluid-typography/> */
+/*  font-size: clamp( var(--minFontSize), var(--scaler), var(--maxFontSize) );
+  line-height: clamp( var(--minLineHeight), var(--scalerHeight), var(--maxLineHeight) );
+  padding-top: 0.5vw;
+  padding-bottom: 0.5vw;
+}
+.cardRoman {
+  --minFontSize: 32px;
+  --maxFontSize: 200px;
+  --minLineHeight: 32px;
+  --maxLineHeight: 200px;
+  --scaler: 10vw;
+  --scalerHeight: 10vw;
+
+  margin-top: 5vw;
+}
+.cardHanji {
+  --minFontSize: 32px;
+  --maxFontSize: 200px;
+  --minLineHeight: 32px;
+  --maxLineHeight: 200px;
+  --scaler: 5vw;
+  --scalerHeight: 5vw;
+
+  margin-top: 2vw;
+}
+.cardNotes {
+  --minFontSize: 16px;
+  --maxFontSize: 200px;
+  --minLineHeight: 20px;
+  --maxLineHeight: 240px;
+  --scaler: 2vw;
+  --scalerHeight: 3vw;
+
+  padding: 2vw;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+}*/
+/*.cardRoman, .cardHanji {
+  width: 25vw;
+}*/
+.grid-item {
+  /*width: 45vw;*/
+  /*float: left;*/
+}
+/*.cardRoman {
+  display: inline-block;
+  white-space: nowrap;
+  width: 30vw;
+  font-size: 10vw !important;
+}*/
+
+.bookname {font-style: italic;}
