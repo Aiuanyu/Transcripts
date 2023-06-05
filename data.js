@@ -1818,22 +1818,29 @@ data = [
         ]
       },
       {
-        "t": "慢慢快活",
+        "t": "Bān-bān khuìnn-ua̍h「慢慢快活」<br>（寶島隨身聽主題曲）<br><br>詞／曲／唱<br>Biung 王宏恩（🔴 布農）、<br>荒山亮（🟢 鶴佬）、羅文裕（🔵 客）",
+        "id": "slowly-happily",
         "rows": [
           [
             "",
+            "",
+            "<iframe style='width: 70vw; height: 25vh; position: fixed; z-index: 50;' src='https://www.youtube.com/embed/68VOMGIbjbw' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe><div style='width: 100%; height: 25vh;'></div>",
+            ""
+          ],
+          [
+            "王宏恩",
             "好久沒有赤腳在大草原上奔跑了",
-            "* Mal-buntuin nitu hadasi cisdadan sia bukzav",
+            "* <ruby>Mal<rt>[主事焦點]</rt></ruby>-<ruby><rb>buntu</rb><rt>久</rt></ruby><ruby>in<rt>了</rt></ruby> <ruby>nitu<rt>沒有</rt></ruby> <ruby>hadasi<rt>赤腳</rt></ruby> <ruby>cisdadan<rt>跑</rt></ruby> <ruby>sia<rt>在</rt></ruby> <ruby>bukzav<rt>平原</rt></ruby>",
             "3"
           ],
           [
             "",
             "好久沒有跟你一起去海邊看海了",
-            "Mal-buntuin nitu muskun su sadu ning-av",
+            "Mal-buntuin nitu <ruby>muskun<rt>一起</rt></ruby> <ruby>su<rt>你</rt></ruby> <ruby>sadu<rt>看</rt></ruby> <ruby>ning-av<rt>海</rt></ruby>",
             "3"
           ],
           [
-            "",
+            "荒山亮",
             "窗外的風景美麗",
             "Thang-guā ê hong-kíng bí-lē",
             "2"
@@ -1857,7 +1864,7 @@ data = [
             "2"
           ],
           [
-            "",
+            "羅文裕",
             "帶等行李這下就出發",
             "Dai dèn hǎnglí liàha qiu cùdfá",
             ""
@@ -1869,25 +1876,25 @@ data = [
             ""
           ],
           [
-            "",
+            "王宏恩",
             "歐嗨耶岸　我先來領唱",
-            "** Ohaie-ian na tutangus saikin",
+            "** Ohaie-ian <ruby>na<rt>將要</rt></ruby> <ruby>tutangus<rt>領唱</rt></ruby> <ruby>saikin<rt>我</rt></ruby>",
             "3"
           ],
           [
-            "",
+            "荒山亮",
             "Ho-i-he　輕輕鬆鬆　鬥陣唱歌",
             "Ho-i-he khin-khin-sang-sang tàu-tīn tshiùnn-kua",
             "2"
           ],
           [
-            "",
+            "王宏恩",
             "歐嗨耶岸　今天是美好的一天",
-            "Ohaie-ian aip hai manau-uaz tu hanian",
+            "Ohaie-ian <ruby>aip<rt>今天</rt></ruby> <ruby>hai<rt>[主題標記]</rt></ruby> <ruby>manau-uaz<rt>漂亮</rt></ruby> <ruby>tu<rt>[連繫]</rt></ruby> <ruby>hanian<rt>日子</rt></ruby>",
             "3"
           ],
           [
-            "",
+            "荒山亮",
             "Ho-i-he　慢慢快活　趕緊上車 ** *",
             "Ho-i-he bān-bān khuìnn-ua̍h kuánn-kín tsiūnn-tshia",
             "2"
@@ -1905,19 +1912,19 @@ data = [
             ""
           ],
           [
-            "",
+            "王宏恩",
             "歐嗨耶岸　我先來領唱",
             "Ohaie-ian na tutangus saikin",
             "3"
           ],
           [
-            "",
+            "合",
             "如果世界變得越來越快，那就慢慢快活　",
             "Rúgǔo shìjiè biàn de yüè lái yüè kuài, nà jiù mànmàn kuàihuó",
             "5"
           ],
           [
-            "",
+            "荒山亮",
             "慢慢快活 ",
             "Bān-bān khuìnn-ua̍h",
             "2"

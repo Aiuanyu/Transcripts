@@ -7,6 +7,7 @@
   --printed-font: Essays1743, 'WenYue GuDianMingChaoTi (Non-Commercial Use)', sans-serif;
   --base-serif: Athelas, 'Doulos SIL', 宋體-繁, serif;
   --note-font: Athelas, 楷體-繁, 全字庫正楷體 Ext-B, 'Doulos SIL', TaiExtWeb, serif;
+  --iansui: "Iansui 094", TaiExtWeb, serif;
 }
 
 body {
@@ -533,7 +534,7 @@ section tr:nth-child(2n+1) .lang2 {font-size: 0.9em !important;}
 section tr:nth-child(2n+1).lang3 .lang2 {font-size: 1.3rem !important;}
 /* 芫荽體鶴佬 */
 section tr.lang21, section td.lang21, section tr:nth-child(2n+1) .lang21, .sample.lang21 {color: /*honeydew*//*hsl(217, 82%, 89%)*/hsl(303, 100%, 96%);}
-section tr:nth-child(2n).lang21, section tr:nth-child(2n) .lang21, .sample.lang21/*, .tranName*/ {font-family: "Iansui 094", TaiExtWeb, serif; font-weight: 500;}
+section tr:nth-child(2n).lang21, section tr:nth-child(2n) .lang21, .sample.lang21/*, .tranName*/ {font-family: var(--iansui); font-weight: 500;}
 section tr:nth-child(2n+1).lang21, section tr:nth-child(2n+1) .lang21 {font-family: "Iansui 094", 'Doulos SIL', sans-serif; font-weight: 500;}
 /* 排灣文 */
 section tr.lang3, section td.lang3, section tr:nth-child(2n+1) .lang3, .sample.lang3 {color: /*honeydew*//*hsl(217, 82%, 89%)*/hsl(127, 100%, 96%);}
@@ -722,7 +723,13 @@ td.classic:before {
   font-size: 0.3em;
   opacity: 0.5;
 }
-rt {opacity: 0.5;}
+rt {
+  opacity: 0.5;
+  ruby-align: center;
+  margin-top: 0.7em;
+  margin-bottom: -0.3em;
+}
+.lang3 rt {font-family: var(--iansui);}
 rb {
   border-style: dotted;
   border-color: hsla(0, 0%, 100%, 0.2);
