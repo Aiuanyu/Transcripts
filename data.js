@@ -1830,7 +1830,7 @@ data = [
           [
             "王宏恩",
             "好久沒有赤腳在大草原上奔跑了",
-            "* <ruby>Mal<rt>[主事焦點]</rt></ruby>-<ruby><rb>buntu</rb><rt>久</rt></ruby><ruby>in<rt>了</rt></ruby> <ruby>nitu<rt>沒有</rt></ruby> <ruby>hadasi<rt>赤腳</rt></ruby> <ruby>cisdadan<rt>跑</rt></ruby> <ruby>sia<rt>在</rt></ruby> <ruby>bukzav<rt>平原</rt></ruby>",
+            "* <ruby>Mal<rt>[主事焦點]</rt></ruby>-<ruby><rb>buntu</rb><rt>久</rt></ruby><ruby>in<rt>了</rt></ruby> <ruby>nitu<rt>沒有</rt></ruby> <span class='noted'><ruby>hadasi<rt>赤腳</rt></ruby></span> <div class='sidenote'>📕 hadasi<br>↑🇯🇵 はだし（Ⓜ️ 赤腳）</div><ruby>cisdadan<rt>跑</rt></ruby> <ruby>sia<rt>在</rt></ruby> <ruby>bukzav<rt>平原</rt></ruby>",
             "3"
           ],
           [
