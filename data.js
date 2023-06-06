@@ -1859,8 +1859,8 @@ data = [
           ],
           [
             "",
-            "綴著風的跤步",
-            "Tuè-tio̍h hong ê kha-pōo",
+            "綴著風的跤步<span class='lang1'><ruby style='ruby-position: under;'>（𠊎準備好勢）<rt>（第二遍）</rt></ruby></span>",
+            "Tuè-tio̍h hong ê kha-pōo <span class='lang1'><ruby style='ruby-position: under;'>(ngǎi zùnpi hòse)<rt>（第二遍）</rt></ruby></span>",
             "2"
           ],
           [
@@ -1871,8 +1871,8 @@ data = [
           ],
           [
             "",
-            "拋忒所有个煩勞",
-            "Páu tèd sò'iú ge fǎnlǒ",
+            "<span class='noted'>挑</span>忒所有个煩勞",
+            "<div class='sidenote'>🔵 問忒「客好里」鄉親正知這隻字乜有「Ⓜ️ 丟棄」个意思，毋過 ROC 教育部詞典還毋曾收 🙄</div><span class='noted'>Tiáu</span> tèd sò'iú ge fǎnlǒ",
             ""
           ],
           [
