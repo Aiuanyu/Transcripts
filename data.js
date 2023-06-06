@@ -1859,8 +1859,8 @@ data = [
           ],
           [
             "",
-            "綴著風的跤步<span class='lang1'><ruby style='ruby-position: under;'>（𠊎準備好勢）<rt>（第二遍）</rt></ruby></span>",
-            "Tuè-tio̍h hong ê kha-pōo <span class='lang1'><ruby style='ruby-position: under;'>(ngǎi zùnpi hòse)<rt>（第二遍）</rt></ruby></span>",
+            "綴著風的跤步<span class='lang1'><ruby style='ruby-position: under;'>（𠊎準備好勢）<rt style='margin: unset;'>（第二遍）</rt></ruby></span>",
+            "Tuè-tio̍h hong ê kha-pōo <span class='lang1'><ruby style='ruby-position: under;'>(ngǎi zùnpi hòse)<rt style='margin: unset;'>（第二遍）</rt></ruby></span>",
             "2"
           ],
           [
