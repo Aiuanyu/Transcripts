@@ -15,7 +15,7 @@ body {
   font-family: '源流明體'/*"霞鶩文楷 TC"*/, HanaMinB, TaiExtWeb, serif;
   line-height: 1.4rem;
   border-radius: 0px;
-  font-size: 20px;
+  font-size: 2vw;
 }
 
 h1, #vnum {
@@ -380,15 +380,15 @@ section table {
 .sidenote {
   position: absolute; /* ☞ css - Float right and position absolute doesn't work together - Stack Overflow <https://stackoverflow.com/questions/11333624/float-right-and-position-absolute-doesnt-work-together> */
   max-width: 14vw;
-  font-size: 8pt;
+  font-size: 0.4em;
   font-weight: 500;
-  line-height: 12pt;
+  line-height: 1.8vw;
   background-color: #FFE8A4;
   background-image: url(res/Wood-Border.svg); /* ☞ Wood Border 2 | Free SVG <https://freesvg.org/wood-border2-arvin61r58> */ /* Wood Pattern - Transparent Textures <https://www.transparenttextures.com/wood-pattern.html> */
   background-size: 100% 100%; /* 新版 Firefox 中，SVG 的 aspect ratio 會維持不變，不像 BlueGriffon 3.1 裡面會拉伸 ∴須修改 SVG 檔加入 preserveAspectRatio="none" ☞ css - Cannot stretch svg background image, aspect ratio will be preserved - Stack Overflow <https://stackoverflow.com/questions/32454685/cannot-stretch-svg-background-image-aspect-ratio-will-be-preserved> */
-  border-radius: 3pt;
+  border-radius: 0.3em;
   left: 82vw;
-  padding: 8pt 10pt;
+  padding: 0.8em 1em;
   color: brown;
   box-shadow: brown 0.3vw 0.3vw 0.25vw;
 }
@@ -399,14 +399,14 @@ section table {
 .trans { /* 參考 .sidenote 來做翻譯方塊（主要給排灣語用） */
   position: absolute;
   max-width: 20vw;
-  font-size: 10pt;
+  font-size: 0.5em;
   font-weight: 500;
-  line-height: 14pt;
+  line-height: 1.5em;
   background-color: hsla(51, 34%, 64%, 0.5);
-  border-radius: 3pt;
+  border-radius: 0.3em;
   left: 70vw;
   font-family: Athelas, 楷體-繁, serif;
-  padding: 3pt 10pt;
+  padding: 0.3em 1em;
   color: white;
   /* box-shadow: brown 0.25vw 0.25vw; */
 }
