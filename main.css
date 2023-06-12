@@ -614,12 +614,13 @@ section tr:nth-child(2n+1).lang5 {font-size: 1.25em;}
 }
 
 td hr {
-  margin-top: 2em;
-  
   /* Simple Styles for <hr>'s <https://css-tricks.com/examples/hrs/> */
   border: 0;
   height: 1px;
   background-image: linear-gradient(to right, hsla(153, 29%, 66%, 0), hsla(153, 29%, 66%, 0.8), hsla(153, 29%, 66%, 0)); /* 綠茶葉海報的綠 #8ec1ab */
+}
+td :not(.sidenote) hr {
+  margin-top: 2em;
 }
 
 .updated {
