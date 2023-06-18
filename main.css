@@ -6,9 +6,9 @@
   --color: ;
   --printed-font: Essays1743, 'WenYue GuDianMingChaoTi (Non-Commercial Use)', sans-serif;
   --base-serif: Athelas, 'Doulos SIL', 宋體-繁, serif;
-  --note-font: Athelas, 楷體-繁, 全字庫正楷體 Ext-B, 'Doulos SIL', TaiExtWeb, serif;
-  --iansui: "Iansui 094", TaiExtWeb, serif;
-  --hak-hansii: '源流明體'/*"霞鶩文楷 TC"*/, HanaMinB, TaiExtWeb, serif;
+  --note-font: Athelas, 楷體-繁, 全字庫正楷體 Ext-B, 'Doulos SIL', 'tauhu-oo', serif;
+  --iansui: "Iansui 094", 'tauhu-oo', serif;
+  --hak-hansii: '源流明體'/*"霞鶩文楷 TC"*/, HanaMinB, 'tauhu-oo', serif;
 }
 
 body {
@@ -539,7 +539,7 @@ body {counter-reset: EPx}
 section tr:nth-child(2n) {color: white !important;}
 /* Ho̍h-ló */
 section tr.lang2, section td.lang2, section tr:nth-child(2n+1) .lang2, .sample.lang2 {color: /*honeydew*//*hsl(217, 82%, 89%)*/hsl(303, 100%, 96%);}
-section tr:nth-child(2n).lang2, section tr:nth-child(2n) .lang2, .sample.lang2/*, .tranName*/ {font-family: "源石黑體", /*"霞鶩文楷 TC",*/ TaiExtWeb, sans-serif; font-weight: 500;}
+section tr:nth-child(2n).lang2, section tr:nth-child(2n) .lang2, .sample.lang2/*, .tranName*/ {font-family: "源石黑體", /*"霞鶩文楷 TC",*/ 'tauhu-oo', sans-serif; font-weight: 500;}
 section tr:nth-child(2n+1).lang2, section tr:nth-child(2n+1) .lang2 {font-family: 'Lesson One', 'Doulos SIL', sans-serif; font-weight: 500;}
 section tr:nth-child(2n+1).lang2 {font-size: 1.2em;}
 section tr:nth-child(2n+1).lang2 td {line-height: 1.6em;}
@@ -659,7 +659,7 @@ table#roman-guide {
 #roman-guide td {
   text-align: center;
   vertical-align: middle;
-  font-family: Andika, 源泉圓體, TaiExtWeb, sans-serif;
+  font-family: Andika, 源泉圓體, 'tauhu-oo', sans-serif;
   font-size: 2vw;
   line-height: 2.5vw;
   max-width: 15vw;
