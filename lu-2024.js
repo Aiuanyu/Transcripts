@@ -27,7 +27,7 @@ data = [
           [
             "",
             "這是我們住的土地",
-            "O <ruby>sera<rt>土地</rt></ruby> no mita ko <ruby>kamoroan<rt><span class='TBD'>家</span></rt></ruby> no mita<div class='sidenote'>以上華語翻譯參考<a href='https://www.facebook.com/dpp.indigenous/posts/pfbid03424WxEzc1KXrHZ93V8dxbFuB7XxVaQuTei3tjcrcTgjcqSgBECTAS7W3tmMQBvXTl'>民進黨原民部貼文</a>。第 3 句若照我的粗淺文法知識，直譯為「我們住的地方是我們的土地」，不過還是先照上述翻譯比較簡潔。另外我查不到 kamoroan，只有一個叫 Kamoro'an 的品牌說是「住下來吧」的意思。推測 kamoroan 是「住的地方」之意。</div>",
+            "O <ruby>sera<rt>土地</rt></ruby> no mita ko <ruby><span class='updated'>kamaro'an</span><rt>住處</rt></ruby> no mita<div class='sidenote'>以上華語翻譯參考<a href='https://www.facebook.com/dpp.indigenous/posts/pfbid03424WxEzc1KXrHZ93V8dxbFuB7XxVaQuTei3tjcrcTgjcqSgBECTAS7W3tmMQBvXTl'>民進黨原民部貼文</a>。第 3 句若照我的粗淺文法知識，直譯為「我們住的地方是我們的土地」，不過還是先照上述翻譯比較簡潔。感謝 <a href='https://www.facebook.com/rngagi.kari'>RNGAGi 說說族語</a>粉專小編提供校正，MV 字幕拼錯，應該是 kamaro'an ←【詞根】maro' = Ⓜ️ 居住</div>",
             "3"
           ],
           [
