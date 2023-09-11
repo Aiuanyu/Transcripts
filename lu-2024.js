@@ -171,7 +171,7 @@ data = [
           [
             "",
             "毋敢向前莫來講輸贏",
-            "M̄-kánn hiòng-tsiân mài lâi kóng su-iânn",
+            "<div class='sidenote'>「向前」唱的是 hiòng-tsîng（白音），不過一般也有人說 hiòng-tsiân（文音）</div>M̄-kánn <span class='noted'>hiòng-tsîng</span> mài lâi kóng su-iânn",
             "2"
           ],
           [
