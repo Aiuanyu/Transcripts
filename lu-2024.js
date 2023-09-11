@@ -3,7 +3,7 @@ data = [
     "EP": "",
     "sections": [
       {
-        "t": "Lōo / Lu / 路 2024<br><br>詞 / 曲 / 唱<br>謝銘祐（🟢 鶴佬）、黃珮舒（🔵 客）",
+        "t": "Lōo / Lu / Lalan / 路 2024<br><br>詞 / 曲 / 唱<br>謝銘祐（🟢 鶴佬）、黃珮舒（🔵 客）<br>Kaniw Ido（🔴 'amis 耆老訓勉）",
         "id": "lu-2024",
         "rows": [
           [
@@ -26,8 +26,8 @@ data = [
           ],
           [
             "",
-            "我們的家是我們的土地",
-            "O <ruby>sera<rt>土地</rt></ruby> no mita ko <ruby>kamoroan<rt><span class='TBD'>家</span></rt></ruby> no mita<div class='sidenote'>查不到 kamoroan，只有一個叫 Kamoro'an 的品牌說是「住下來吧」的意思，所以只好推測 kamoroan 是「家」之意？</div>",
+            "這是我們住的土地",
+            "O <ruby>sera<rt>土地</rt></ruby> no mita ko <ruby>kamoroan<rt><span class='TBD'>家</span></rt></ruby> no mita<div class='sidenote'>以上華語翻譯參考<a href='https://www.facebook.com/dpp.indigenous/posts/pfbid03424WxEzc1KXrHZ93V8dxbFuB7XxVaQuTei3tjcrcTgjcqSgBECTAS7W3tmMQBvXTl'>民進黨原民部貼文</a>。第 3 句若照我的粗淺文法知識，直譯為「我們住的地方是我們的土地」，不過還是先照上述翻譯比較簡潔。另外我查不到 kamoroan，只有一個叫 Kamoro'an 的品牌說是「住下來吧」的意思。推測 kamoroan 是「住的地方」之意。</div>",
             "3"
           ],
           [
@@ -75,7 +75,7 @@ data = [
           [
             "原",
             "（吟唱音節，無意思）",
-            "* Hai-yan ho-hai-yan<br>Hai-yan hai-yan<br>I-ya-ho hai-yan",
+            "* Hai-yan ho-hai-yan<br>Hai-yan hai-yan<div class='sidenote'>「hai」若只是 1 個音節，依原住民族書寫系統的規範可能宜寫作「hay」。</div><br>I-ya-ho hai-yan",
             "3"
           ],
           [
@@ -212,31 +212,13 @@ data = [
           ],
           [
             "",
-            "",
-            "",
-            ""
-          ],
-          [
-            "",
             "*",
             "",
             ""
           ],
           [
             "",
-            "",
-            "",
-            ""
-          ],
-          [
-            "",
             "$",
-            "",
-            ""
-          ],
-          [
-            "",
-            "",
             "",
             ""
           ],
