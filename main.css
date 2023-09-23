@@ -9,6 +9,7 @@
   --note-font: Athelas, 楷體-繁, 全字庫正楷體 Ext-B, 'Doulos SIL', 'tauhu-oo', serif;
   --iansui: Iansui, 'tauhu-oo', serif;
   --hak-hansii: '源流明體'/*"霞鶩文楷 TC"*/, HanaMinB, 'tauhu-oo', serif;
+  --base-sans-han: STHeiti;
 }
 
 body {
@@ -365,7 +366,7 @@ section table {
 }*/
 
 .time {
-  font-family: /* Digital-7 */ /*Menlo*/ NovaMono for Powerline; 
+  font-family: /* Digital-7 */ /*Menlo*/ NovaMono for Powerline, var(--base-sans-han); 
   background: black; 
   /*color: white;*/
   display: inline-block; 
@@ -745,11 +746,13 @@ rt {
 }
 .lang3 rt {font-family: var(--iansui);}
 .lang3 ruby {ruby-position: under;}
+.lang3 .trans ruby {ruby-position: initial;}
 rb {
   border-style: dotted;
   border-color: hsla(0, 0%, 100%, 0.2);
   border-width: 0 0.02em;
 }
+rt {line-height: 1.4em;}
 
 .payuanEllipsis {
   /*content: url(res/Payuan-snake.png);*/ /* 這個有用 */

@@ -1056,7 +1056,7 @@ data = [
           ],
           [
             "",
-            "　",
+            "",
             "",
             ""
           ],
@@ -1195,13 +1195,13 @@ data = [
         "rows": [
           [
             "",
-            "會唱歌个人 ",
+            "會唱歌个人",
             "Vōi chǒnggò gǎi ngin",
             ""
           ],
           [
             "",
-            "起一隻音 ",
+            "起一隻音",
             "Hí rhid zhag rhìm",
             ""
           ],
@@ -1919,13 +1919,13 @@ data = [
           ],
           [
             "合",
-            "如果世界變得越來越快，那就慢慢快活　",
+            "如果世界變得越來越快，那就慢慢快活",
             "Rúgǔo shìjiè biàn de yüè lái yüè kuài, nà jiù mànmàn kuàihuó",
             "5"
           ],
           [
             "荒山亮",
-            "慢慢快活 ",
+            "慢慢快活",
             "Bān-bān khuìnn-ua̍h",
             "2"
           ],
@@ -2220,6 +2220,84 @@ data = [
             "試過一擺正會無遺憾",
             "Chǐ gǒ rhid bái zhǎng vōi mo vuihām",
             ""
+          ]
+        ]
+      },
+      {
+        "t": "Payuan 語版 Tokyo Bon 嚐鮮版<br>（Payuan Classic 排灣經典）",
+        "id": "payuan-tokyo-bon-trial",
+        "rows": [
+          [
+            "",
+            "臺北市政府",
+            "<ruby>Kinsihu<rt>🇯🇵けんせいふ<br>県政府</rt></ruby> i <ruby>Taihuku<rt>🇯🇵たいほく<br>台北</rt></ruby>",
+            "3"
+          ],
+          [
+            "",
+            "禱告、基督",
+            "<ruby>Inuli<rt>🇯🇵 いのり<br>祈り</rt></ruby> <ruby>Kuristu<rt>🇯🇵キリスト<br>🇬🇧Christ</rt></ruby>",
+            "3"
+          ],
+          [
+            "",
+            "很會、運動、給我快一點！",
+            "<ruby>Saigu<rt>🇯🇵さいこう<br>最高</rt></ruby>, <ruby>undu<rt>🇯🇵うんどう<br>運動</rt></ruby>, <ruby>pay<rt>來</rt></ruby> <ruby>lja<rt>語助詞？希望？<br>與 a 同？</rt></ruby> <ruby>kirimu<rt>快點</rt></ruby>!",
+            "3"
+          ],
+          [
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "往臺東的火車",
+            "<ruby>Kisia<rt>🇯🇵きしゃ<br>汽車</rt></ruby> <ruby>pasa<rt>往</rt></ruby> <ruby>Taitu<rt>🇯🇵たいとう<br>台東</rt></ruby>",
+            "3"
+          ],
+          [
+            "",
+            "洛神花、水果",
+            "<ruby>Yuzilu<rt>🇯🇵ローゼル<br>🇬🇧 roselle</rt></ruby>, <ruby>kudamunu<rt>🇯🇵くだもの<br>果物</rt></ruby>",
+            "3"
+          ],
+          [
+            "",
+            "便當、盒子，通通吃掉！",
+            "<ruby>Bintu<rt>🇯🇵べんとう<br>弁当</rt></ruby>, <ruby>baku<rt>🇯🇵はこ<br>箱</rt></ruby>, <ruby>kanu<rt>吃吧</rt></ruby> <ruby>puljatu<rt>全部？</rt></ruby>!",
+            "3"
+          ],
+          [
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "拖鞋、油、<ruby>伴手禮<rt>📗 phuānn-tshiú-lé</rt></ruby>、電視",
+            "🤣 <ruby>Sulipa<rt>🇯🇵スリッパ<br> 🇬🇧 slipper</rt></ruby>, <ruby>abula<rt>🇯🇵あぶら<br>油</rt></ruby>, <ruby>umiyagi<rt>🇯🇵おみやげ<br>お土産</rt></ruby>, <ruby>tiribi<rt>🇯🇵テレビ<br> 🇬🇧 television</rt></ruby>",
+            "3"
+          ],
+          [
+            "",
+            "計程車、公車、汽車、飛機",
+            "<ruby>Haiya<rt>🇯🇵ハイヤー<br>🇬🇧 hire</rt></ruby>, <ruby>basu<rt>🇯🇵バス<br>🇬🇧 bus</rt></ruby>, <ruby>tjidusia<rt>🇯🇵じどうしゃ<br>自動車</rt></ruby>, <ruby>hikuki<rt>🇯🇵ひこうき<br>飛行機</rt></ruby>",
+            "3"
+          ],
+          [
+            "",
+            "打赤腳、跳舞、熱鬧、收穫祭",
+            "<ruby>Hadasi<rt>🇯🇵はだし<br>裸足</rt></ruby>, <ruby>utuli<rt>🇯🇵おどり<br>踊り</rt></ruby>, <ruby>hukalaka<rt><span class='noted'>🇯🇵ほがはか<br>朗らか</span></rt></ruby>, <ruby>siukakusay<rt>🇯🇵しゅうかくさい<br>収穫祭</rt></ruby>",
+            "3"
+          ],
+          [
+            "",
+            "代表 村長 議員 鄉長 危險 囉唆！",
+            "<ruby>Taihiw<rt>🇯🇵だいひょう<br>代表</rt></ruby> <ruby>sunciw<rt>🇯🇵そんちょう<br>村長</rt></ruby> <ruby>giing<rt>🇯🇵ぎいん<br>議員</rt></ruby> <div class='sidenote'>晴朗、嘹亮、明朗、開朗？早年臺灣有個流行語ㄏㄨ ㄍㄚ˙ ㄒーㄚ ㄍㄚ˙感覺也是這個詞源，該不會是借入到臺灣某個南島語再借入華語？甚至以為是「胡搞瞎搞」？</div><ruby>guciw<rt>🇯🇵ごうちょう<br>郷長</rt></ruby> <ruby>abunay<rt>🇯🇵あぶない<br>危ない</rt></ruby> <ruby>udrusay<rt>🇯🇵うるさい<br>五月蝿い</rt></ruby>!",
+            "3"
           ]
         ]
       }
