@@ -2300,6 +2300,36 @@ data = [
             "3"
           ]
         ]
+      },
+      {
+        "t": "2024 賴蕭配競選口號",
+        "id": "lai-slogan",
+        "rows": [
+          [
+            "",
+            "行著个路，擇著个人",
+            "Hǎng cog ge lu, tog cog ge ngǐn <span class='dialectMark'>四</span><br>Hang chòg gǎi lū, tòg chòg gǎi ngin <span class='dialectMark'>海</span><br>Hǎng chòg gāi lù, tòg chòg gāi ngǐn <span class='dialectMark'>大</span>",
+            ""
+            ],
+            [
+              "",
+              "<img src='https://scontent.ftpe4-1.fna.fbcdn.net/v/t39.30808-6/404779345_922155552606228_6976063310044951805_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=6imAnOf9Ss4AX8icbpe&_nc_ht=scontent.ftpe4-1.fna&oh=00_AfB-dY6Hm1sXYo79wzTN0ulnlXsWvgyK0XIsHfVaZV_TEQ&oe=6578A154' width='100%'></img>",
+              "",
+              "3"
+            ],
+          [
+            "",
+            "行著个路，揀著个儂",
+            "Kiânn tio̍h--ê lōo, kíng tio̍h--ê lâng",
+            "2"
+          ],
+          [
+            "",
+            "走對的路，選對的人",
+            "Zǒu duì de lù, xǚan duì de rén",
+            "5"
+          ]
+        ]
       }
     ]
   }
