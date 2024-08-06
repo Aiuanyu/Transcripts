@@ -26,8 +26,8 @@ data = [
           ],
           [
             "",
-            "<div class='sidenote'>有的版本用「獨立」，有的用「建國」，我取「建國」</div><span class='noted'>建國</span>今欲出頭天。",
-            "Kián-kok taⁿ teh chhut-thâu-thiⁿ.",
+            "<div class='sidenote'>有的版本用「獨立」，有的用「建國」，我取「建國」</div><span class='noted'>建國</span>今咧出頭天。",
+            "Kiàn-kok taⁿ teh chhut-thâu-thiⁿ.",
             "2"
           ],
           [
